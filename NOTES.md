@@ -56,7 +56,9 @@ Validate that items have a description.
 
 # Step 5: I want to add state (complete, incomplete) to Items in a List
   - Marking items as compelte or incomplete.
-  
+
+# REFACTOR 1: Start using partials in lists/show because it's a bit messy.
+
 # Step 6: Deleting Items from a list
 
 # Step Whatever: Fix Down Arrow on Make a List Form
