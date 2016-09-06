@@ -4,5 +4,6 @@
 		<% end %>
 
 	  <label><%= item.description %></label>
+	  <%= button_to "x", list_item_path(item.list, item), :method =>"delete", :class => "destroy" %>
 	</div>
 <% end %>
